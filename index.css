@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "sans serif";
+}
+
+body {
+  background: #e9e9e9;
+}
+
+.vote-container {
+  background: #cfcfcf;
+  margin: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 120vh;
+}
+
+.vote-container div {
+  margin: 1% 10%;
+}
+
+.vote-container div > div {
+  margin: 0;
+  width: 0%;
+  height: 40px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 80%;
+  border-radius: 0.6em;
+}
+
+#leni-graph {
+  background-color: #f86bd5;
+  color: white;
+}
+
+#bbm-graph {
+  background-color: #f54b4b;
+  color: white;
+}
+
+#pacquiao-graph {
+  background-color: #f5ae43;
+  color: #fffefe;
+}
+
+#isko-graph {
+  background-color: #637af8;
+  color: white;
+}
+
+button {
+  border: none;
+  padding: 1em;
+  border-radius: 2em;
+  cursor: pointer;
+}
